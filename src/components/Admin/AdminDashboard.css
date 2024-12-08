@@ -1,0 +1,222 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body and Overall Layout */
+  body {
+    font-family: 'Arial', sans-serif;
+    background: #f4f7fc;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 200px;
+  }
+  
+  /* Main Admin Dashboard Container */
+  .dashboard-container {
+    background: #fff;
+    padding: 300px;
+    border-radius: 90px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 20px;
+  }
+  
+  /* Header */
+  h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    font-weight: 600;
+  }
+  
+  /* Section Styling */
+  section {
+    margin-bottom: 20px;
+  }
+  
+  section h2 {
+    font-size: 1.75rem;
+    color: #333;
+    margin-bottom: 0px;
+    font-weight: 1000;
+    text-align: left;
+  }
+  
+  /* Add Form */
+  .add-form {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  
+  .add-form input {
+    padding: 10px 15px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    width: 250px;
+    font-size: 1rem;
+  }
+  
+  .add-form input:focus {
+    outline: none;
+    border-color: #457b9d;
+  }
+  
+  .add-form button {
+    background: #457b9d;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+  }
+  
+  .add-form button:hover {
+    background: #1d3557;
+  }
+  
+  /* Faculty and Student List */
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fafafa;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    font-size: 1.1rem;
+  }
+  
+  ul li button {
+    background: #e63946;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  ul li button:hover {
+    background: #d42f2f;
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 768px) {
+    .add-form {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .add-form input {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .add-form button {
+      width: 100%;
+    }
+  
+    ul li {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    ul li button {
+      margin-top: 10px;
+    }
+  }
+  .dashboard-container {
+    padding: 20px;
+    background-color: #f4f7fa;
+    min-height: 100vh;
+  }
+  
+  h1, h2, h3 {
+    color: #333;
+  }
+  
+  .add-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  button:active {
+    background-color: #388e3c;
+  }
+  
+  button {
+    margin-right: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .back-to-home {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #1e3a8a;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .back-to-home:hover {
+    background-color: #3b82f6;
+  }
+  

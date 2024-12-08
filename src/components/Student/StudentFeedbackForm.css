@@ -1,0 +1,35 @@
+/* Feedback Form Select and Textarea */
+.feedback-form-container select,
+.feedback-form-container textarea {
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    background-color: #c0c990;
+    border: 2px solid #2f2d2d;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+/* Increased size for rating select boxes */
+.feedback-form-container select {
+    height: 100px; /* Increase height for rating selects */
+    margin-bottom: 20px;  /* Added margin bottom for spacing */
+}
+
+/* Suggestions Box */
+textarea {
+    height: 100px;  /* Smaller height for suggestions box */
+    resize: vertical;
+    margin-top: 20px; /* Add margin to create space between textarea and select box */
+}
+
+/* On Focus Effect */
+.feedback-form-container select:focus,
+.feedback-form-container textarea:focus {
+    outline: none;
+    border-color: #9fbbd2;
+    box-shadow: 0 0 8px rgba(138, 183, 220, 0.6);
+}
